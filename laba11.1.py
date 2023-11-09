@@ -8,12 +8,12 @@ def pal_check(string, mod_2):
 
 print("введите слово для проверки на палиндром")
 s = list(input())
-heap = list()
 
 if len(s) < 3:
     print("в слове меньше 3 букв")
     exit()
 
+heap = list()
 for i in range(int(len(s) / 2)):
     heap.append(s[i])
 

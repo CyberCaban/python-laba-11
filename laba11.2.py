@@ -1,4 +1,4 @@
-heap = list()
+print("введите строку для инвертирования")
 s = list(input())
 
 
@@ -7,5 +7,7 @@ def invert(string):
         heap.append(s.pop())
 
 
+heap = list()
 invert(s)
-print(heap)
+print("инвертированная строка")
+print(''.join(heap))
